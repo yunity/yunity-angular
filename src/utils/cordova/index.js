@@ -40,5 +40,7 @@ status.$watch('online', val => {
 })
 
 status.$watch('foreground', val => {
+  console.log('foreground', val)
+
   if (val) refresh()
 })

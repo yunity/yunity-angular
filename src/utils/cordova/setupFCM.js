@@ -1,5 +1,7 @@
 import datastore from '@/base/datastore'
 import router from '@/base/router'
+import messageAPI from '@/messages/api/messages'
+import conversationsAPI from '@/messages/api/conversations'
 
 document.addEventListener('deviceready', onDeviceReady, false)
 
@@ -9,21 +11,37 @@ const devicereadyTimeout = setTimeout(() => {
 
 function onDeviceReady () {
   clearTimeout(devicereadyTimeout)
-  const { FCMPlugin } = window
-  if (FCMPlugin) {
-    FCMPlugin.onTokenRefresh(receiveFCMToken)
-    FCMPlugin.getToken(receiveFCMToken)
-    FCMPlugin.onNotification(receiveNotification)
-  }
-  else {
-    console.error('window.FCMPlugin is not available, push notifications will not work')
-  }
+  const { PushNotification } = window
+  const push = PushNotification.init({
+    android: {
+      forceShow: true,
+      icon: 'push_icon',
+      iconColor: 'green',
+    },
+  })
+  push.on('registration', receiveFCMToken)
+  push.on('notification', receiveNotification)
+  push.on('error', console.log)
+  push.on('mark', data => {
+    console.log('mark as read', data)
+    const { conversationId, messageId, threadId } = data.additionalData.karrot
+    if (threadId) {
+      messageAPI.markThread(threadId, messageId)
+    }
+    else {
+      conversationsAPI.mark(conversationId, { seenUpTo: messageId })
+    }
+  })
 }
 
 function receiveNotification (data) {
-  if (!data.wasTapped) return
+  console.log('data', data)
+  // this seems always to get triggered when receiving notifications, not just when tapping
+  const { foreground, dismissed } = data.additionalData
+  if (foreground || dismissed) return
+
   // Notification was received on device tray and tapped by the user
-  const path = data.karrot_route
+  const { path } = data.additionalData.karrot
   if (path) {
     const pendingRoute = datastore.state.routeMeta.next
     if (pendingRoute && pendingRoute.path === path) return
@@ -31,6 +49,8 @@ function receiveNotification (data) {
   }
 }
 
-function receiveFCMToken (token) {
-  datastore.commit('fcm/setToken', token)
+function receiveFCMToken (data) {
+  console.log('token', data)
+
+  datastore.commit('fcm/setToken', data.registrationId)
 }

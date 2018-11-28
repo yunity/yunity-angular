@@ -22,6 +22,7 @@
     <splash src="" />
     <platform name="android">
         <resource-file src="icon_push.png" target="res/drawable/icon_push.png" />
+        <resource-file src="google-services.json" target="app/google-services.json" />
         <allow-intent href="market:*" />
         <preference name="android-minSdkVersion" value="23" />
         <preference name="AndroidLaunchMode" value="singleInstance" />
