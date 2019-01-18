@@ -132,6 +132,11 @@ export default {
       }
     },
   },
+  beforeDestroy () {
+    if (this.data.unreadMessageCount) {
+      this.$emit('markAllRead', this.data.id)
+    }
+  },
 }
 </script>
 
