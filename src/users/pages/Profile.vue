@@ -277,10 +277,6 @@ export default {
       if (!this.currentGroup) {
         return []
       }
-      const { activeEditorsCount, activeEditorsRequiredForConflictResolution: requiredCount } = this.currentGroup
-      if (activeEditorsCount < requiredCount) {
-        return [this.$t('CONFLICT.REQUIREMENTS.ACTIVE_EDITORS', { activeEditorsCount, requiredCount })]
-      }
       if (this.currentGroup && this.currentGroup.membership && !this.currentGroup.membership.isEditor) {
         return [this.$t('CONFLICT.REQUIREMENTS.NEWCOMER')]
       }
