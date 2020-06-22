@@ -3561,7 +3561,7 @@ exports[`Storyshots ConflictSetup create 1`] = `
             <div class="q-stepper__step-content">
               <div class="q-stepper__step-inner">
                 <p><strong>You are about to start a group-wide conflict resolution process!</strong></p>
-                <p>This will involve all members with editing permissions to find the best way to proceed.</p>
+                <p>This will involve all members to find the best way to proceed.</p>
               </div>
             </div>
           </div>
