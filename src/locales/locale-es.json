@@ -208,26 +208,25 @@
   "CONFLICT": {
     "FIND_OUT_MORE": "¡Obtén más información!",
     "INFO": {
-      "MESSAGE": "Esta es una votación en la que quienes tienen permisos de edición en el grupo pueden participar para decidir como tratar con un problema social que afecta a todo el grupo.",
+      "MESSAGE": "This is a score voting in which group members can participate to determine how to deal with a social conflict that affects the whole group.",
       "TITLE": "¿Cómo funciona el proceso?"
     },
     "INITIAL": "Información",
     "REQUIREMENTS": {
-      "ACTIVE_EDITORS": "Tu grupo tiene {activeEditorsCount}usuarios activos con permisos de edición. Necesitas {requiredCount}para iniciar el proceso de resolución de problemas.",
       "NEWCOMER": "Antes de empezar el proceso de resolución de problemas, necesitas recibir más confianza y tener permisos de edición. Mientras tanto, por favor contacta a una persona del grupo para que empiece el proceso por ti."
     },
     "SETUP_HEADER": "¿Hay algún problema con {user}?",
     "STATEMENT": "Declaración",
     "STEPPER1a": "Está a punto de empezar un proceso grupal de resolución de problemas ",
-    "STEPPER1b": "Esto involucrará a todo miembro con permisos de edición para encontrar la mejor forma de proceder.",
+    "STEPPER1b": "This will involve all members to find the best way to proceed.",
     "STEPPER2a": "¡Gracias por preocuparte por tu comunidad!",
     "STEPPER2b": "Es importante que tengas en cuentas las cuestiones sociales, aunque a veces pueda ser incómodo. ¡Gracias por tu valentía!",
     "STEPPER3a": "Esto es lo que pasará:",
     "STEPPER3b": "Este proceso abrirá un chat y una votación.",
-    "STEPPER3c": "Este chat será visible para personas con permiso de edición e incluye a {userName}",
+    "STEPPER3c": "The chat will be visible for members and includes {userName}.",
     "STEPPER3d": "La votación es anónima. Durará {votingDuration}días. Durante este tiempo quienes voten pueden cambiar su opinión y cambiar de voto tantas veces como consideren necesario.",
     "STEPPER4a": "Por favor explica porque has empezado este proceso de resolución de problemas.",
-    "STEPPER4b": "Cuenta al grupo la justificación y necesidad de este proceso. Esta declaración será visible para {userName}y quienes en el grupo tengan derechos de edición.",
+    "STEPPER4b": "Tell your group what made you think this process is justified and needed. This statement will be visible to {userName} and group members.",
     "VOTING": {
       "HEADLINE": "¿Cómo quieres proceder con el actual problema con {userName}?"
     },

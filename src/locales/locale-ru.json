@@ -208,26 +208,25 @@
   "CONFLICT": {
     "FIND_OUT_MORE": "Find out more!",
     "INFO": {
-      "MESSAGE": "This is a score voting in which group members with editing permissions can participate to determine how to deal with a social conflict that affects the whole group.",
+      "MESSAGE": "This is a score voting in which group members can participate to determine how to deal with a social conflict that affects the whole group.",
       "TITLE": "How does this process work?"
     },
     "INITIAL": "Information",
     "REQUIREMENTS": {
-      "ACTIVE_EDITORS": "Your group has {activeEditorsCount} active users with editing permissions. You need {requiredCount} to start a conflict resolution process.",
       "NEWCOMER": "Before you can start a conflict resolution process, you need to receive more trust and gain editing permissions. In the meantime, please ask a fellow group member to start the process for you."
     },
     "SETUP_HEADER": "Is there a conflict with {user}?",
     "STATEMENT": "Statement",
     "STEPPER1a": "You are about to start a group-wide conflict resolution process!",
-    "STEPPER1b": "This will involve all members with editing permissions to find the best way to proceed.",
+    "STEPPER1b": "This will involve all members to find the best way to proceed.",
     "STEPPER2a": "Thank you for caring for your community!",
     "STEPPER2b": "It is important to address social issues, although it can be unpleasant sometimes. Thank you for your courage!",
     "STEPPER3a": "Here's what will happen:",
     "STEPPER3b": "This process will start a chat and a vote.",
-    "STEPPER3c": "The chat will be visible for members with editing permissions and includes {userName}.",
+    "STEPPER3c": "The chat will be visible for members and includes {userName}.",
     "STEPPER3d": "The voting is anonymous. It will go on for {votingDuration} days. During this time all voters can change their minds and vote differently as many times as they want.",
     "STEPPER4a": "Please explain why you are starting this conflict resolution process!",
-    "STEPPER4b": "Tell your group what made you think this process is justified and needed. This statement will be visible to {userName} and group members with editing permissions.",
+    "STEPPER4b": "Tell your group what made you think this process is justified and needed. This statement will be visible to {userName} and group members.",
     "VOTING": {
       "HEADLINE": "How do you want to proceed with the ongoing conflict with {userName}?"
     },

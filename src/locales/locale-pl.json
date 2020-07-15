@@ -208,26 +208,25 @@
   "CONFLICT": {
     "FIND_OUT_MORE": "Dowiedz się więcej!",
     "INFO": {
-      "MESSAGE": "Oto głosowanie, w którym wszyscy użytkownicy z uprawnieniami do edycji mogą zadecydować o rozwiązaniu konfliktu, który wpływa na całą grupę.",
+      "MESSAGE": "This is a score voting in which group members can participate to determine how to deal with a social conflict that affects the whole group.",
       "TITLE": "Jak działa proces?"
     },
     "INITIAL": "Informacje",
     "REQUIREMENTS": {
-      "ACTIVE_EDITORS": "Twoja grupa ma tylko {activeEditorsCount} aktywnych użytkowników z uprawnieniami do edycji. Potrzeba co najmniej {requiredCount} użytkowników, aby rozpocząć rozwiązywanie konfliktu.",
       "NEWCOMER": "Aby rozpocząć rozwiązywanie konfliktu, musisz zdobyć więcej zaufania i otrzymać uprawnienia do edycji. W międzyczasie możesz poprosić innego użytkownika o rozpoczęcie tego procesu za Ciebie."
     },
     "SETUP_HEADER": "Czy istnieje konflikt z {user}?",
     "STATEMENT": "Oświadczenie",
     "STEPPER1a": "Zamierzasz rozpocząć rozwiązywanie konfliktu!",
-    "STEPPER1b": "Wszyscy użytkownicy z uprawnieniami do edycji wspólnie zadecydują o najlepszym rozwiązaniu.",
+    "STEPPER1b": "This will involve all members to find the best way to proceed.",
     "STEPPER2a": "Dziękujemy za troskę o naszą społeczność!",
     "STEPPER2b": "Rozwiązywanie konfliktów w grupie jest bardzo ważne, choć nie zawsze łatwe. Dziękujemy za Twoją odwagę!",
     "STEPPER3a": "Oto co się stanie:",
     "STEPPER3b": "Proces rozpocznie się poprzez stworzenie czatu i wprowadzenie głosowania.",
-    "STEPPER3c": "Czat będzie widoczny dla wszystkich użytkowników z uprawnieniami do edycji, w tym dla {userName}.",
+    "STEPPER3c": "The chat will be visible for members and includes {userName}.",
     "STEPPER3d": "Głosowanie jest anonimowe i potrwa {votingDuration} dni. Przed upływem wyznaczonego terminu użytkownicy mogą dowolnie zmieniać swoje głosy.",
     "STEPPER4a": "Wyjaśnij, dlaczego rozpoczynasz procedurę rozwiązywania konfliktu!",
-    "STEPPER4b": "Wyjaśnij, dlaczego uważasz, że uruchomienie tego procesu jest uzasadnione. To oświadczenie będzie widoczne dla {userName} oraz wszystkich użytkowników, którzy mają uprawnienia do edycji.",
+    "STEPPER4b": "Tell your group what made you think this process is justified and needed. This statement will be visible to {userName} and group members.",
     "VOTING": {
       "HEADLINE": "Jak chcesz rozwiązać trwający konflikt z {userName}?"
     },

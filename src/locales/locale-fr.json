@@ -208,26 +208,25 @@
   "CONFLICT": {
     "FIND_OUT_MORE": "En savoir plus!",
     "INFO": {
-      "MESSAGE": "Il s'agit d'un vote par score auquel les membres du groupe disposant de droits d'édition peuvent participer pour déterminer comment gérer un conflit social qui affecte l'ensemble du groupe.",
+      "MESSAGE": "This is a score voting in which group members can participate to determine how to deal with a social conflict that affects the whole group.",
       "TITLE": "Comment ce processus fonctionne-t-il ?\n "
     },
     "INITIAL": "Information",
     "REQUIREMENTS": {
-      "ACTIVE_EDITORS": "Votre groupe a {activeEditorsCount} des utilisateurs actifs avec des autorisations de modification. Vous avez besoins de {requiredCount} utilisateurs actifs pour démarrer un processus de résolution des conflits.",
       "NEWCOMER": "Avant de pouvoir démarrer un processus de résolution de conflits, vous devez recevoir plus de confiance et obtenir des autorisations de modification. En attendant, veuillez demander à un autre membre du groupe de démarrer le processus pour vous."
     },
     "SETUP_HEADER": "Y a-t-il un conflit avec {user} ?",
     "STATEMENT": "Déclaration",
     "STEPPER1a": "Vous êtes sur le point de lancer un processus de résolution de conflits à l'échelle du groupe !",
-    "STEPPER1b": "Cela impliquera que tous les membres avec des autorisations d'édition chercheront à trouver la meilleure façon de résoudre cette situation.\n ",
+    "STEPPER1b": "This will involve all members to find the best way to proceed.",
     "STEPPER2a": "Merci de prendre soin de votre communauté !",
     "STEPPER2b": "Il est important de s'attaquer aux problèmes sociaux, même si cela peut parfois être désagréable. Merci pour votre courage !",
     "STEPPER3a": "Voici ce qui va se passer :",
     "STEPPER3b": "Ce processus lancera un chat et un vote.",
-    "STEPPER3c": "Le chat sera visible pour les membres avec des autorisations d'édition et inclus {userName}.",
+    "STEPPER3c": "The chat will be visible for members and includes {userName}.",
     "STEPPER3d": "Le vote est anonyme. Cela durera {votingDuration} jours. Pendant ce temps, tous les électeurs peuvent changer d'avis et voter différemment autant de fois qu'ils le souhaitent.\n \n ",
     "STEPPER4a": "Veuillez expliquer pourquoi vous lancez ce processus de résolution des conflits !",
-    "STEPPER4b": "Dites à votre groupe ce qui vous a fait penser que ce processus est justifié et nécessaire. Cette déclaration sera visible par {userName} et par les membres du groupe disposant des autorisations de modification.",
+    "STEPPER4b": "Tell your group what made you think this process is justified and needed. This statement will be visible to {userName} and group members.",
     "VOTING": {
       "HEADLINE": "Comment voulez-vous procéder concernant le conflit en cours avec {userName} ?"
     },

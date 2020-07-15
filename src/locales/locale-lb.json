@@ -208,26 +208,25 @@
   "CONFLICT": {
     "FIND_OUT_MORE": "Méi erausfannen!",
     "INFO": {
-      "MESSAGE": "Dëst ass eng Ofstëmmung mat Punkten, un där all Member aus der Grupp, déi beaarbechten duerf, deelhuele kann fir mat ze bestëmme wéi mat engem soziale Konflikt, deen déi ganz Grupp betrëfft, ëmgaange gi soll.",
+      "MESSAGE": "This is a score voting in which group members can participate to determine how to deal with a social conflict that affects the whole group.",
       "TITLE": "Wéi funktionéiert dëse Prozess?"
     },
     "INITIAL": "Informatiounen",
     "REQUIREMENTS": {
-      "ACTIVE_EDITORS": "Deng Grupp huet {activeEditorsCount} aktiv Benotzer, déi beaarbechten duerfen. Du brauchs {requiredCount} fir ee Konflikt-Léisungsprozess ze starten.",
       "NEWCOMER": "Iers du ee Konflikt-Léisungsprozess starten duerfs, muss du méi Vertraue kréien a beaarbechten duerfen. An der Tëschenzäit frees de am Beschten een anere Member aus der Grupp fir de Prozess fir dech ze starten."
     },
     "SETUP_HEADER": "Gëtt et ee Konflikt mat {user}?",
     "STATEMENT": "Ausso",
     "STEPPER1a": "Du bass derbäi ee Konflikt-Léisungsprozess an der ganzer Grupp ze starten!",
-    "STEPPER1b": "Dëst wäert all d'Memberen, déi beaarbechten duerfen, involvéiere fir déi bescht Léisung fir weiderzemaachen ze fannen.",
+    "STEPPER1b": "This will involve all members to find the best way to proceed.",
     "STEPPER2a": "Merci dofir dass du dech ëm d'Gemeinschaft këmmers!",
     "STEPPER2b": "Et ass wichteg sozial Konflikter unzeschwätzen, obwuel et heiansdo onangeneem si kann. Merci fir däi Courage!",
     "STEPPER3a": "Hei ass wat geschéie wäert:",
     "STEPPER3b": "Dëse Prozess wäert een Chat an eng Ofstëmmung starten.",
-    "STEPPER3c": "Den Chat wäert fir all d'Memberen, déi beaarbechten duerfen, siichtbar sinn. Derbäi ass {userName}.",
+    "STEPPER3c": "The chat will be visible for members and includes {userName}.",
     "STEPPER3d": "D'Ofstëmmung ass anonym. Si wäert {votingDuration} Deeg daueren. Wärend dëser Zäit ka jiddereen seng Meenung änneren an anescht ofstëmmen esou oft wéi si wëllen.",
     "STEPPER4a": "Erklär w.e.g. firwat's du dëse Konflikt-Léisungsprozess starts!",
-    "STEPPER4b": "Erklär denger Grupp firwat's du mengs, dass dëse Prozess justifizéiert ass a gebraucht gëtt. Dës Ausso wäert siichtbar si fir {userName} an all d'Memberen aus der Grupp, déi beaarbechten duerfen.",
+    "STEPPER4b": "Tell your group what made you think this process is justified and needed. This statement will be visible to {userName} and group members.",
     "VOTING": {
       "HEADLINE": "Wéi wëlls du mam aktuelle Konflikt mat {userName} weidermaachen?"
     },

@@ -208,26 +208,25 @@
   "CONFLICT": {
     "FIND_OUT_MORE": "Mehr herausfinden!",
     "INFO": {
-      "MESSAGE": "Dies ist eine Abstimmung, bei der Gruppenmitglieder mit Bearbeitungsberechtigung teilnehmen können, um zu entscheiden, wie mit einem sozialen Konflikt umgegangen werden soll, der die gesamte Gruppe betrifft.",
+      "MESSAGE": "This is a score voting in which group members can participate to determine how to deal with a social conflict that affects the whole group.",
       "TITLE": "Wie funktioniert dieser Prozess?"
     },
     "INITIAL": "Information",
     "REQUIREMENTS": {
-      "ACTIVE_EDITORS": "Deine Gruppe hat {activeEditorsCount} aktive Nutzer mit Bearbeitungsrechten. Du brauchst {requiredCount}, um einen Konfliktresolutionsprozess zu starten.",
       "NEWCOMER": "Bevor du einen Konfliktresolutionsprozess starten kannst, musst du mehr Vertrauen und Bearbeitungsrechte erhalten. Frage in der Zwischenzeit ein anderes Gruppenmitglied, um den Prozess für dich zu starten."
     },
     "SETUP_HEADER": "Gibt es einen Konflikt mit {user}?",
     "STATEMENT": "Aussage",
     "STEPPER1a": "Du bist dabei einen gruppenweiten Konfliktlösungsprozess zu starten!",
-    "STEPPER1b": "Dabei werden alle Mitglieder mit Bearbeitungsrechten einbezogen, um die beste Lösung zu finden.",
+    "STEPPER1b": "This will involve all members to find the best way to proceed.",
     "STEPPER2a": "Danke, dass du dich um deine Community kümmerst!",
     "STEPPER2b": "Es ist wichtig, soziale Themen anzusprechen, auch wenn dies manchmal unangenehm sein kann. Danke für deinen Mut!",
     "STEPPER3a": "Dies wird passieren:",
     "STEPPER3b": "Dieser Prozess wird eine Unterhaltung und eine Abstimmung starten.",
-    "STEPPER3c": "Die Unterhaltung wird nur für Mitglieder mit Bearbeitungsrechten sichtbar sein und bezieht {userName} mit ein.",
+    "STEPPER3c": "The chat will be visible for members and includes {userName}.",
     "STEPPER3d": "Die Abstimmung ist anonym. Sie wird für {votingDuration} geöffnet sein. Während dieser Zeit können alle Wählenden ihre Meinung ändern und unterschiedlich wählen, sooft sie wollen.",
     "STEPPER4a": "Bitte erkläre warum du diesen Konfliktlösungsprozess starten willst!",
-    "STEPPER4b": "Erzähle deiner Gruppe warum du denkst, dass dieser Prozess berechtigt und benötigt wird. Diese Aussage wird sichtbar für {userName} und alle Gruppenmitglieder mit Bearbeitungsrechten sein.",
+    "STEPPER4b": "Tell your group what made you think this process is justified and needed. This statement will be visible to {userName} and group members.",
     "VOTING": {
       "HEADLINE": "Wie willst du mit dem laufenden Konflikt mit {userName} umgehen?"
     },

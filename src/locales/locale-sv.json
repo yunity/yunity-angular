@@ -208,26 +208,25 @@
   "CONFLICT": {
     "FIND_OUT_MORE": "Få reda på mer!",
     "INFO": {
-      "MESSAGE": "Detta är en poängröstning där gruppmedlemmar med redigeringsbehörigheter kan delta för att avgöra hur man ska hantera en social konflikt som påverkar hela gruppen.",
+      "MESSAGE": "This is a score voting in which group members can participate to determine how to deal with a social conflict that affects the whole group.",
       "TITLE": "Hur fungerar denna process?"
     },
     "INITIAL": "Information",
     "REQUIREMENTS": {
-      "ACTIVE_EDITORS": "Din grupp har {activeEditorsCount} aktiva användare med redigeringsbehörigheter. Du måste {requiredCount} för att starta en konfliktlösningsprocess.",
       "NEWCOMER": "Innan du kan starta en konfliktlösningsprocess måste du få mer förtroende och få redigeringsbehörigheter. Under tiden ber du en gruppmedlem att starta processen för dig."
     },
     "SETUP_HEADER": "Finns det en konflikt med {user}?",
     "STATEMENT": "Redogörelse",
     "STEPPER1a": "Du är på väg att starta en gruppövergripande konfliktlösningsprocess!",
-    "STEPPER1b": "Detta kommer att involvera alla medlemmar med redigeringsbehörigheter för att hitta det bästa sättet att fortsätta.",
+    "STEPPER1b": "This will involve all members to find the best way to proceed.",
     "STEPPER2a": "Tack för att du tar hand om ditt samhälle!",
     "STEPPER2b": "Det är viktigt att ta itu med sociala frågor, även om det ibland kan vara obehagligt. Tack för ditt mod!",
     "STEPPER3a": "Här kommer vad som kommer att hända:",
     "STEPPER3b": "Den här processen startar en chatt och en omröstning.",
-    "STEPPER3c": "Chatten kommer att vara synlig för medlemmar med redigeringsbehörigheter och inkluderar {userName}.",
+    "STEPPER3c": "The chat will be visible for members and includes {userName}.",
     "STEPPER3d": "Röstningen är anonym. Det kommer att pågå i {votingDuration} dagar. Under denna tid kan alla väljare ändra sig och rösta annorlunda så många gånger de vill.",
     "STEPPER4a": "Förklara varför du startar denna konfliktlösningsprocess!",
-    "STEPPER4b": "Berätta för din grupp vad som fick dig att tro att denna process är motiverad och nödvändig. Detta uttalande kommer att vara synligt för {userName} och gruppmedlemmar med redigeringsbehörigheter.",
+    "STEPPER4b": "Tell your group what made you think this process is justified and needed. This statement will be visible to {userName} and group members.",
     "VOTING": {
       "HEADLINE": "Hur vill du fortsätta med den pågående konflikten med {userName}?"
     },

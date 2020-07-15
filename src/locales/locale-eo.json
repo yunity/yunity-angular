@@ -208,26 +208,25 @@
   "CONFLICT": {
     "FIND_OUT_MORE": "Malkovru pli!",
     "INFO": {
-      "MESSAGE": "Tiu ĉi estas voĉdonado en kiu grupanoj kun redaktpermesoj povas partopreni por decidi kiel agi rilate al socia problemo kiu damaĝas la grupon.",
+      "MESSAGE": "This is a score voting in which group members can participate to determine how to deal with a social conflict that affects the whole group.",
       "TITLE": "Kiel ĉi tiu proceso funkcias?"
     },
     "INITIAL": "Informo",
     "REQUIREMENTS": {
-      "ACTIVE_EDITORS": "Via grupo havas {activeEditorsCount}aktivajn uzantojn kun redaktpermesoj. Vi bezonas {requiredCount}por komenci problemsolvadan proceson.",
       "NEWCOMER": "Antaŭ komenci problemsolvadan proceson, vi bezonas ricevi plian fidon kaj ricevi redaktpermesojn. Dume, bonvolu peti al ano kun redaktpermesoj komenci la proceson nome de vi."
     },
     "SETUP_HEADER": "Ĉu estas problemo kun {user}?",
     "STATEMENT": "Deklaracio",
     "STEPPER1a": "Vi preskaŭ komencis problemsolvadan proceson grupnivele!",
-    "STEPPER1b": "Ĉi tio inkludos ĉiujn anojn kun redaktipermesojn por trovi la plej bonan manieron por kunagi.",
+    "STEPPER1b": "This will involve all members to find the best way to proceed.",
     "STEPPER2a": "Dankon ke vi zorgas pri la komunumo!",
     "STEPPER2b": "Gravas paroli pri sociaj konfliktoj, kvankam kelkfoje malkomfortas. Dankon pro via kuraĝo!",
     "STEPPER3a": "Jen kio okazos:",
     "STEPPER3b": "La proceso malfermos babilejon kaj voĉdonadon.",
-    "STEPPER3c": "La babilejo estos videbla por anoj kun redaktpermesoj kaj inkludas {userName}.",
+    "STEPPER3c": "The chat will be visible for members and includes {userName}.",
     "STEPPER3d": "La voĉdonado estas anonima. Ĝi daŭros {votingDuration}tagojn. Dum tiu ĉi tempo ĉiuj voĉdonantoj povas ŝanĝi siajn opinion kaj voĉdonon kiom multe ili volos.",
     "STEPPER4a": "Bonvolu klarigi kial vi komencis la problemsolvadan proceson!",
-    "STEPPER4b": "Klarigu al la grupo kial komenci la proceson. Tiu ĉi deklaracio legeblos por {userName}kaj uzantoj kun redaktpermesoj.",
+    "STEPPER4b": "Tell your group what made you think this process is justified and needed. This statement will be visible to {userName} and group members.",
     "VOTING": {
       "HEADLINE": "Kiel vi volas daŭrigi kun la aktuala problemo kun {userName}?"
     },

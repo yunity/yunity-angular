@@ -208,26 +208,25 @@
   "CONFLICT": {
     "FIND_OUT_MORE": "Zjistit více!",
     "INFO": {
-      "MESSAGE": "Jedná se o hlasování o skóre, kterého se mohou účastnit členové skupiny s oprávněními k úpravám, aby určili, jak řešit sociální konflikt, který ovlivňuje celou skupinu.",
+      "MESSAGE": "This is a score voting in which group members can participate to determine how to deal with a social conflict that affects the whole group.",
       "TITLE": "Jak tento proces funguje?"
     },
     "INITIAL": "Informace",
     "REQUIREMENTS": {
-      "ACTIVE_EDITORS": "Vaše skupina má {activeEditorsCount} aktivních uživatelů s oprávněními k úpravám. Potřebujete mít {requiredCount} uživatelů k zahájení procesu řešení konfliktů.",
       "NEWCOMER": "Než budete moci zahájit proces řešení konfliktů, musíte získat větší důvěru a získat oprávnění k úpravám. Mezitím požádejte člena skupiny, aby zahájil proces za vás."
     },
     "SETUP_HEADER": "Je nějaký konflikt s uživatelem {user}?",
     "STATEMENT": "Stanovisko",
     "STEPPER1a": "Chystáte se zahájit proces řešení konfliktů v celé skupině!",
-    "STEPPER1b": "To bude zahrnovat všechny členy s oprávněními k úpravě, aby našli nejlepší způsob, jak postupovat.",
+    "STEPPER1b": "This will involve all members to find the best way to proceed.",
     "STEPPER2a": "Děkujeme za péči o vaši komunitu!",
     "STEPPER2b": "Je důležité řešit sociální otázky, i když to někdy může být nepříjemné. Děkujeme za odvahu!",
     "STEPPER3a": "Co se stane:",
     "STEPPER3b": "Tento proces zahájí chat a hlasování.",
-    "STEPPER3c": "Chat bude viditelný pro členy s oprávněními k úpravám včetně uživatele {userName}",
+    "STEPPER3c": "The chat will be visible for members and includes {userName}.",
     "STEPPER3d": "Hlasování je anonymní. Bude trvat {votingDuration} dnů. Během této doby mohou všichni hlasující  změnit názor a hlasovat tolikrát, kolikrát chtějí.",
     "STEPPER4a": "Vysvětlete prosím, proč začínáte tento proces řešení konfliktů!",
-    "STEPPER4b": "Řekněte své skupině, proč si myslíte, že je tento proces oprávněný a potřebný. Toto sdělení bude viditelné uživateli {userName} a členům skupiny s oprávněními k úpravám.",
+    "STEPPER4b": "Tell your group what made you think this process is justified and needed. This statement will be visible to {userName} and group members.",
     "VOTING": {
       "HEADLINE": "Jak chcete pokračovat s probíhajícím konfliktem s {userName} ?"
     },

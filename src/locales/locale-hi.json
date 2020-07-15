@@ -208,26 +208,25 @@
   "CONFLICT": {
     "FIND_OUT_MORE": "और अधिक जानकारी प्राप्त करें!",
     "INFO": {
-      "MESSAGE": "यह एक स्कोर वोटिंग है जिसमें संपादन की अनुमति वाले समूह के सदस्य यह निर्धारित करने के लिए भाग ले सकते हैं कि एक सामाजिक संघर्ष से कैसे निपटें जो पूरे समूह को प्रभावित करता है।",
+      "MESSAGE": "This is a score voting in which group members can participate to determine how to deal with a social conflict that affects the whole group.",
       "TITLE": "यह प्रक्रिया कैसे काम करती है?"
     },
     "INITIAL": "जानकारी",
     "REQUIREMENTS": {
-      "ACTIVE_EDITORS": "आपके समूह में संपादन अनुमतियों के साथ {activeEditorsCount} सक्रिय उपयोगकर्ता हैं। संघर्ष समाधान प्रक्रिया शुरू करने के लिए आपको {requiredCount} की आवश्यकता होती है।",
       "NEWCOMER": "इससे पहले कि आप एक संघर्ष समाधान प्रक्रिया शुरू कर सकें, आपको अधिक विश्वास प्राप्त करने और संपादन अनुमतियाँ प्राप्त करने की आवश्यकता है। इस बीच, कृपया एक साथी समूह के सदस्य से आपके लिए प्रक्रिया शुरू करने के लिए कहें।"
     },
     "SETUP_HEADER": "{user} के साथ कोई संघर्ष है?",
     "STATEMENT": "बयान",
     "STEPPER1a": "आप एक समूह-व्यापी संघर्ष समाधान प्रक्रिया शुरू करने वाले हैं!",
-    "STEPPER1b": "आगे बढ़ने के लिए सबसे अच्छा तरीका खोजने के लिए संपादन की अनुमति वाले सभी सदस्य शामिल होंगे।",
+    "STEPPER1b": "This will involve all members to find the best way to proceed.",
     "STEPPER2a": "अपने समुदाय की देखभाल के लिए धन्यवाद!",
     "STEPPER2b": "सामाजिक मुद्दों को संबोधित करना महत्वपूर्ण है, हालांकि यह कभी-कभी अप्रिय हो सकता है। आपके साहस के लिए धन्यवाद!",
     "STEPPER3a": "यहाँ क्या होगा:",
     "STEPPER3b": "यह प्रक्रिया एक चैट और एक वोट शुरू करेगी।",
-    "STEPPER3c": "चैट संपादन की अनुमति वाले सदस्यों के लिए दिखाई देगा और इसमें {userName} भी शामिल है।",
+    "STEPPER3c": "The chat will be visible for members and includes {userName}.",
     "STEPPER3d": "मतदान गुमनाम है। यह {votingDuration} दिन तक चलेगा। इस समय के दौरान सभी मतदाता अपना मन बदल सकते हैं और अलग-अलग समय पर जितनी बार चाहें वोट दे सकते हैं।",
     "STEPPER4a": "कृपया बताएं कि आप इस संघर्ष समाधान प्रक्रिया को क्यों शुरू कर रहे हैं!",
-    "STEPPER4b": "अपने समूह को बताएं कि आपको क्या लगता है कि यह प्रक्रिया उचित और आवश्यक है। यह कथन संपादन अनुमतियों के साथ {userName} और समूह के सदस्यों को दिखाई देगा।",
+    "STEPPER4b": "Tell your group what made you think this process is justified and needed. This statement will be visible to {userName} and group members.",
     "VOTING": {
       "HEADLINE": "आप {userName} के साथ चल रहे संघर्ष को कैसे आगे बढ़ाना चाहते हैं?"
     },
