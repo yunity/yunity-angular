@@ -24,7 +24,7 @@
     <QDialog
       v-if="$q.platform.has.touch"
       v-model="showDetail"
-      content-class="bg-grey-10 text-grey-1 q-pa-md"
+      class="bg-grey-10 text-grey-1 q-pa-md"
     >
       <QItem
         v-for="reaction in reactions"

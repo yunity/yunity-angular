@@ -1,5 +1,4 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import { createStore } from 'vuex'
 
 // alphabetical
 import agreements from '@/agreements/datastore'
@@ -55,8 +54,6 @@ const appModules = [
   utils,
 ]
 
-Vue.use(Vuex)
-
 const collectedModules = {}
 const collectedPlugins = []
 
@@ -67,7 +64,7 @@ appModules.forEach(({ modules = {}, plugins = [] }) => {
 
 const debug = process.env.DEV
 
-export default new Vuex.Store({
+export default createStore({
   modules: collectedModules,
   plugins: collectedPlugins,
   strict: debug,

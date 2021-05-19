@@ -267,7 +267,7 @@ export default {
       this.hideBottomSpinner = done
     },
     onScroll ({ position }) {
-      if (position < 50 && !this.fetchingPast && this.conversation.canFetchPast) {
+      if (position.top < 50 && !this.fetchingPast && this.conversation.canFetchPast) {
         this.$emit('fetch-past', this.conversation.id)
       }
       // if user scrolls to bottom and no more messages can be loaded, mark messages as read

@@ -12,7 +12,7 @@
       square
       dark
       max-width="280px"
-      content-class="q-pa-md text-center bg-primary"
+      class="q-pa-md text-center bg-primary"
     >
       <p
         v-if="title"

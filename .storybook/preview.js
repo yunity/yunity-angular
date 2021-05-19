@@ -1,6 +1,6 @@
 // Vue config
-import 'quasar/dist/quasar.styl'
-import '../src/css/app.styl'
+import 'quasar/dist/quasar.sass'
+import '@/css/app.sass'
 
 import Vue from 'vue'
 import Vuex from 'vuex'

@@ -22,7 +22,7 @@
       v-if="!$q.platform.is.mobile"
       v-model="showing"
       no-parent-event
-      content-style="width: 500px"
+      style="width: 500px"
       anchor="bottom middle"
       self="top middle"
     >

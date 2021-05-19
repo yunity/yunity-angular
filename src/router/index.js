@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import VueRouter from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import splashRoutes from '@/base/routes/splash'
 import mainRoutes from '@/base/routes/main'
 
@@ -9,7 +9,7 @@ const RouteError = () => import('@/base/components/RouteError')
 
 Vue.use(VueRouter)
 
-export default new VueRouter({
+export default createRouter({
   routes: [
     {
       path: '',
@@ -39,13 +39,12 @@ export default new VueRouter({
       return savedPosition
     }
     else {
-      return { x: 0, y: 0 }
+      return { left: 0, top: 0 }
     }
   },
 
   // Leave these as they are and change in quasar.conf.js instead!
   // quasar.conf.js -> build -> vueRouterMode
   // quasar.conf.js -> build -> publicPath
-  mode: process.env.VUE_ROUTER_MODE,
-  base: process.env.VUE_ROUTER_BASE,
+  hash: createWebHashHistory(process.env.VUE_ROUTER_BASE),
 })

@@ -12,7 +12,6 @@ const { resolve } = require('path')
 const fs = require('fs')
 const StyleLintPlugin = require('stylelint-webpack-plugin')
 const PreloadWebpackPlugin = require('preload-webpack-plugin')
-const HardSourceWebpackPlugin = require('hard-source-webpack-plugin')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 
 function getHttpsOptions () {
@@ -88,7 +87,7 @@ module.exports = configure(function (ctx) {
 
     // https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css
     css: [
-      'app.styl',
+      'app.sass',
     ],
 
     // https://github.com/quasarframework/quasar/tree/dev/extras
@@ -112,8 +111,6 @@ module.exports = configure(function (ctx) {
 
     // Full list of options: https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
     build: {
-      vueRouterMode: 'hash', // available values: 'hash', 'history'
-
       // transpile: false,
 
       // Add dependencies for transpiling with Babel (Array of string/regex)
@@ -144,8 +141,8 @@ module.exports = configure(function (ctx) {
           // Add your own alias like this
           '@': resolve(__dirname, './src'),
           '>': resolve(__dirname, './test'),
-          variables: resolve(__dirname, './src/css/quasar.variables.styl'),
-          editbox: resolve(__dirname, './src/css/karrot.editbox.styl'),
+          variables: resolve(__dirname, './src/css/quasar.variables.sass'),
+          editbox: resolve(__dirname, './src/css/karrot.editbox.sass'),
         }
 
         cfg.plugins.unshift(new StyleLintPlugin({
@@ -160,17 +157,6 @@ module.exports = configure(function (ctx) {
             rel: 'prefetch',
           }),
         )
-
-        if (dev) {
-          cfg.plugins.push(new HardSourceWebpackPlugin({
-            configHash: function (webpackConfig) {
-              return require('node-object-hash')({ sort: false }).hash([
-                webpackConfig,
-                appEnv,
-              ])
-            },
-          }))
-        }
 
         if (!dev) {
           cfg.plugins.push(new BundleAnalyzerPlugin({
@@ -199,7 +185,7 @@ module.exports = configure(function (ctx) {
     // https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-framework
     framework: {
       iconSet: 'material-icons', // Quasar icon set
-      lang: 'en-us', // Quasar language pack
+      lang: 'en-US', // Quasar language pack
       config: {},
 
       // Possible values for "importStrategy":

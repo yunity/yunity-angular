@@ -1,7 +1,4 @@
 <template>
-  <!-- Don't drop "q-app" id -->
-
-  <div id="q-app">
     <!-- class root-splash is defined in index.html -->
     <img
       v-if="!hasView"
@@ -10,7 +7,6 @@
     >
     <LoadingProgress />
     <RouterView />
-  </div>
 </template>
 
 <script>

@@ -6,7 +6,7 @@
       square
       :loading="loading"
       :columns="columns"
-      :data="enrichedDataWithTotals"
+      :rows="enrichedDataWithTotals"
       row-key="id"
       hide-pagination
       :rows-per-page-options="[0]"

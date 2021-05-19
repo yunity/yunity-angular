@@ -59,7 +59,7 @@ function loadMainRoute (name) {
 }
 
 function waitForRouterReady (router) {
-  return new Promise(router.onReady.bind(router))
+  return router.isReady()
 }
 
 describe('main routes', () => {
@@ -75,6 +75,7 @@ describe('main routes', () => {
 
   beforeEach(() => { router = require('@/router') })
 
+  // TODO https://next.router.vuejs.org/guide/migration/index.html#usage-of-history-state
   beforeEach(() => window.history.pushState({}, 'home', '#/')) // always reset location or tests will interfere
 
   beforeEach(() => {

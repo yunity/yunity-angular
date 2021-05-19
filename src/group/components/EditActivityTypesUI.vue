@@ -3,7 +3,7 @@
     <component :is="$q.platform.is.mobile ? 'div' : 'QCard'">
       <QTable
         :columns="columns"
-        :data="filteredActivityTypes"
+        :rows="filteredActivityTypes"
         hide-pagination
         :pagination="{ rowsPerPage: 0 }"
         flat
