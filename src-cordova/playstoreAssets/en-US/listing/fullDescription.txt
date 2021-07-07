@@ -1,22 +1,16 @@
-Foodsaving: The act of making food that was already intended to be thrown into the bin available for human consumption again.
+Start a group, become a community.
 
-This can be done most efficiently through cooperations whith stores. The foodsavers and the store agree on clear times at which food can be picked up free of charge. The saved food will then be distributed to people who can make use of it.
+Karrot is a free and open-source tool for grassroots initiatives and groups of people that want to coordinate face-to-face activities on a local, autonomous and voluntary basis.
 
-To make the lives of foodsavers as easy as possible Karrot provides many functionalities for pickup organization, such as:
+It is designed in ways to enable community-building and support a more transparent, democratic and participatory governance of your group.
 
-- push notifications
-- group wall
-- private messaging
-- store pages with description and location
-- map to display store locations
-- one-time or recurring pickup dates
-- individual number of slots for each pickup
-- pickup chats
-- full translation support via transifex
-- activity history for full transparency
-- pickup feedback option
-- application process for potential group members
-- approval system for new group members
-- community forum activity notifier
-
-Karrot is in active development and thus constantly improved. It does not incorporate standard admin roles but will find progressive ways of automatically adjusting hierarchies that reflect a group's actual responsibility structure. We already took the first steps in this direction with the application and approval systems, but it's far from being finished.
+- manage information about places
+- schedule both one-time and recurring activities
+- gather feedback about activities
+- talk with users before they become group members
+- let newcomers show their trust and get involved
+- communicate with your team via group, place, activity, and private chats
+- handle team member conflicts via score voting
+- receive real-time notifications via our Android app, e-mail, and web browser push notifications
+- use karrot in your preferred language
+- upload a group logo and customize your public information

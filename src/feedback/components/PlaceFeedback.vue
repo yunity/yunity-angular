@@ -38,7 +38,7 @@
           </QChip>
         </div>
         <span v-if="statistics && statistics.feedbackWeight > 0">
-          {{ $tc('FEEDBACKLIST.SAVED_FOOD', 2, { amount: statistics.feedbackWeight }) }}
+          {{ $tc('FEEDBACKLIST.SAVED', 2, { amount: statistics.feedbackWeight }) }}
         </span>
       </div>
     </QCard>

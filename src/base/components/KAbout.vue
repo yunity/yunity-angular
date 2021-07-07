@@ -71,7 +71,7 @@
       <QItem
         tag="a"
         rel="noopener noreferrer"
-        href="https://foodsaving.world"
+        href="https://community.foodsaving.world"
         target="_blank"
       >
         <QItemSection side>
@@ -80,10 +80,7 @@
 
         <QItemSection>
           <QItemLabel>
-            Info
-          </QItemLabel>
-          <QItemLabel caption>
-            {{ $t('SIDENAV.INFO_SUB') }}
+            Community
           </QItemLabel>
         </QItemSection>
       </QItem>
@@ -91,7 +88,7 @@
       <QItem
         tag="a"
         rel="noopener noreferrer"
-        href="mailto:karrot@foodsaving.world"
+        href="mailto:info@karrot.world"
       >
         <QItemSection side>
           <QIcon name="fas fa-fw fa-envelope" />
@@ -99,7 +96,7 @@
 
         <QItemSection>
           <QItemLabel>
-            karrot@foodsaving.world
+            info@karrot.world
           </QItemLabel>
         </QItemSection>
       </QItem>
@@ -120,11 +117,11 @@
       <i class="fas fa-heart text-red" />
       by
       <a
-        href="https://foodsaving.world"
+        href="https://community.foodsaving.world/people"
         target="_blank"
         rel="noopener"
       >
-        foodsaving worldwide
+        karrot team
       </a>
     </div>
 

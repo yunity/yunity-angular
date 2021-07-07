@@ -5694,11 +5694,11 @@ exports[`Storyshots Feedback PlaceFeedback 1`] = `
         <div title="4 feedback entries given" class="q-chip row inline no-wrap items-center bg-secondary text-white q-chip--colored q-chip--square"><i aria-hidden="true" role="presentation" class="q-chip__icon q-chip__icon--left fas fa-reply q-icon notranslate"> </i>
           <div class="q-chip__content col row no-wrap items-center q-anchor--skip"><strong class="q-ml-sm">4</strong></div>
         </div>
-        <div title="10 kg of food saved" class="q-chip row inline no-wrap items-center bg-secondary text-white q-chip--colored q-chip--square"><i aria-hidden="true" role="presentation" class="q-chip__icon q-chip__icon--left fas fa-weight q-icon notranslate"> </i>
+        <div title="10 kg saved" class="q-chip row inline no-wrap items-center bg-secondary text-white q-chip--colored q-chip--square"><i aria-hidden="true" role="presentation" class="q-chip__icon q-chip__icon--left fas fa-weight q-icon notranslate"> </i>
           <div class="q-chip__content col row no-wrap items-center q-anchor--skip"><strong class="q-ml-sm">10 kg</strong></div>
         </div>
       </div> <span>
-        People gave feedback for 10 kg of saved food already! Keep up the great work!
+        People gave feedback for 10 kg saved already! Keep up the great work!
       </span>
     </div>
   </div>
@@ -7838,23 +7838,20 @@ exports[`Storyshots KAbout KAbout 1`] = `
           Mastodon
         </div>
       </div>
-    </a> <a tabindex="0" rel="noopener noreferrer" href="https://foodsaving.world" target="_blank" class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable">
+    </a> <a tabindex="0" rel="noopener noreferrer" href="https://community.foodsaving.world" target="_blank" class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable">
       <div tabindex="-1" class="q-focus-helper"></div>
       <div class="q-item__section column q-item__section--side justify-center"><i aria-hidden="true" role="presentation" class="fas fa-fw fa-globe q-icon notranslate"> </i></div>
       <div class="q-item__section column q-item__section--main justify-center">
         <div class="q-item__label">
-          Info
-        </div>
-        <div class="q-item__label q-item__label--caption text-caption">
-          How to build your foodsaving group
+          Community
         </div>
       </div>
-    </a> <a tabindex="0" rel="noopener noreferrer" href="mailto:karrot@foodsaving.world" class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable">
+    </a> <a tabindex="0" rel="noopener noreferrer" href="mailto:info@karrot.world" class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable">
       <div tabindex="-1" class="q-focus-helper"></div>
       <div class="q-item__section column q-item__section--side justify-center"><i aria-hidden="true" role="presentation" class="fas fa-fw fa-envelope q-icon notranslate"> </i></div>
       <div class="q-item__section column q-item__section--main justify-center">
         <div class="q-item__label">
-          karrot@foodsaving.world
+          info@karrot.world
         </div>
       </div>
     </a></div>
@@ -7866,8 +7863,8 @@ exports[`Storyshots KAbout KAbout 1`] = `
     made with
     <i class="fas fa-heart text-red"></i>
     by
-    <a href="https://foodsaving.world" target="_blank" rel="noopener">
-      foodsaving worldwide
+    <a href="https://community.foodsaving.world/people" target="_blank" rel="noopener">
+      karrot team
     </a>
   </div>
   <div class="row justify-end q-mt-sm"><button tabindex="0" type="button" role="button" class="q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--rectangle q-btn--actionable q-focusable q-hoverable q-btn--wrap"><span class="q-focus-helper"></span><span class="q-btn__wrapper col row q-anchor--skip"><span class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><span class="block">Close</span></span></span></button></div>

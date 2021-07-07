@@ -106,7 +106,7 @@
     "UPCOMING_ACTIVITIES_IN_SERIES": "Upcoming activities in this series"
   },
   "ACTIVITY_FEEDBACK": {
-    "AMOUNT": "Amount of food you were able to save (in kg)",
+    "AMOUNT": "Amount you were able to save (in kg)",
     "AMOUNT_INFO": "For place statistics, we will add together the amount of all feedback.",
     "COMMENT_PLACEHOLDER": "Was everything fine? Did everyone show up? Your comment here...",
     "DELETE_AMOUNT": "Delete amount",
@@ -241,7 +241,7 @@
   },
   "COMMUNITY_FEED": {
     "HEADER": "Updates from the {community}",
-    "HEADER_LINK": "foodsaving worldwide community",
+    "HEADER_LINK": "community",
     "KARROT_DISCUSSION": "Discussions about Karrot",
     "LAST_UPDATED": "Last updated {relativeDate}"
   },
@@ -333,8 +333,8 @@
     "NO_DONE_ACTIVITIES_HINT": "You currently have nothing to give feedback to. Why not join an activity?",
     "NUMBER_ACTIVITIES": "{count} activities done",
     "NUMBER_FEEDBACK": "{count} feedback entries given",
-    "SAVED_FOOD": "At least 1 kg was saved here. Thank you! | People gave feedback for {amount} kg of saved food already! Keep up the great work!",
-    "WEIGHT_SUM": "{sum} kg of food saved"
+    "SAVED": "At least 1 kg was saved here. Thank you! | People gave feedback for {amount} kg saved already! Keep up the great work!",
+    "WEIGHT_SUM": "{sum} kg saved"
   },
   "GLOBAL": {
     "ABOUT_KARROT": "About Karrot",
@@ -681,8 +681,7 @@
     "TITLE": "Settings"
   },
   "SIDENAV": {
-    "GIT_SUB": "See our code!",
-    "INFO_SUB": "How to build your foodsaving group"
+    "GIT_SUB": "See our code!"
   },
   "SIGNUP": {
     "BACK": "Back to Login",
