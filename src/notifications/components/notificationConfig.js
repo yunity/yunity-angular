@@ -39,6 +39,7 @@ function getMessageParams (type, context) {
     case 'conflict_resolution_created':
     case 'conflict_resolution_continued':
     case 'conflict_resolution_decided':
+    case 'member_left':
       return {
         userName: context.user && context.user.displayName,
       }
@@ -52,6 +53,8 @@ function getIcon (type, context) {
     case 'activity_enabled':
     case 'application_accepted':
       return 'fas fa-check'
+    case 'member_left':
+      return 'fas fa-user-minus'
     case 'activity_disabled':
     case 'application_declined':
     case 'conflict_resolution_you_were_removed':
@@ -94,6 +97,7 @@ function getRouteTo (type, { group, user, place, activity, issue } = {}) {
     case 'user_became_editor':
     case 'invitation_accepted':
     case 'new_member':
+    case 'member_left':
       return user && { name: 'userInGroup', params: { userId: user.id, groupId: group.id } }
     case 'you_became_editor': // TODO show information about editing permissions
     case 'application_accepted':

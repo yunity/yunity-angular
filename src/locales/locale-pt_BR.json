@@ -609,7 +609,8 @@
     "NEW_PLACE": "{placeName} has been created",
     "USER_BECAME_EDITOR": "{userName} gained editing permissions",
     "VOTING_ENDS_SOON": "Voting ends soon, don't forget to participate!",
-    "YOU_BECAME_EDITOR": "You gained editing permissions"
+    "YOU_BECAME_EDITOR": "You gained editing permissions",
+    "MEMBER_LEFT": "{userName} saiu do grupo"
   },
   "NOTIFICATION_BELLS_LIST": {
     "NO_ITEMS": "We currently don't have notifications for you.",
