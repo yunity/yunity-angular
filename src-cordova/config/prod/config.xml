@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="world.karrot" version="9.4.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Karrot</name>
-    <description>Modern website for organization of foodsaving groups worldwide</description>
+    <description>Karrot is a free and open-source tool for grassroots initiatives and groups of people that want to coordinate face-to-face activities on a local, autonomous and voluntary basis.</description>
     <author email="karrot@foodsaving.world" href="https://foodsaving.world">
         Foodsaving World Team
     </author>

@@ -61,6 +61,11 @@ module.exports = configure(function (ctx) {
     // https://quasar.dev/quasar-cli/supporting-ts
     supportTS: false,
 
+    // https://quasar.dev/quasar-cli/quasar-conf-js#property-htmlvariables
+    htmlVariables: {
+      title: 'Karrot - Start a group, become a community',
+    },
+
     // https://quasar.dev/quasar-cli/prefetch-feature
     // preFetch: true,
 
