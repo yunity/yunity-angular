@@ -22,6 +22,7 @@ Please document your changes in this format:
 
 ## [Unreleased]
 ### Added
+- activity-list: enable ics subscriptions for activities @amengsk @larzon83 [#2368]
 - Users can revoke trust @pogopaule [#2352]
 
 ### Changed
@@ -50,6 +51,7 @@ Please document your changes in this format:
 - Added country code and timezone to geo ip info @nicksellen [#1134](https://github.com/yunity/karrot-backend/pull/1134)
 - API for revoking trust @pogopaule [#1133](https://github.com/yunity/karrot-backend/pull/1133)
 - API for calendar subscriptions @amengsk [#1132](https://github.com/yunity/karrot-backend/pull/1132)
+- add ics export for activities @amengsk @larzon83 [#2321]
 
 ### Changed
 - amount-picker: improve UX of weight slider limits @larzon83 @layla19 @dpaque @pogopaule [#2348]
@@ -69,7 +71,6 @@ Please document your changes in this format:
 ### Added
 - enabled Hungarian locale @nicksellen [#2313]
 - add activity type editing @nicksellen [#2245]
-- add ics export for activities @amengsk [#2321]
 
 ### Changed
 - use default group location for defaultMapCenter when creating a new place @larzon83 [#2293]

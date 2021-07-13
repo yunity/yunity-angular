@@ -6,6 +6,7 @@
       place-link
       filter
       :filter-activity-types="activityTypes"
+      :ics-url="activitiesIcsUrl"
       @join="join"
       @leave="leave"
       @detail="detail"
@@ -62,6 +63,7 @@ export default {
     ...mapGetters({
       groupId: 'currentGroup/id',
       activities: 'activities/byCurrentGroup',
+      activitiesIcsUrl: 'activities/icsUrlForCurrentGroup',
       activityTypes: 'activityTypes/byCurrentGroup',
       pending: 'activities/fetchingForCurrentGroup',
       places: 'places/byCurrentGroup',

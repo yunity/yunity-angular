@@ -140,7 +140,7 @@
       >
         <template #default>
           <QIcon
-            name="fas fa-calendar-plus"
+            name="event"
             size="xs"
             class="q-mr-xs"
           />

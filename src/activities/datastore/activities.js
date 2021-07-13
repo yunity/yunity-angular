@@ -50,6 +50,12 @@ export default {
     byActivePlace: (state, getters) => {
       return getters.byCurrentGroup.filter(({ place }) => place && place.isActivePlace)
     },
+    icsUrlForCurrentGroup: (state, getters, rootState, rootGetters) => {
+      return activities.icsUrl({ group: rootGetters['currentGroup/id'] })
+    },
+    icsUrlForCurrentPlace: (state, getters, rootState, rootGetters) => {
+      return activities.icsUrl({ place: rootGetters['places/activePlaceId'] })
+    },
     joined: (state, getters) => getters.byCurrentGroup.filter(e => e.isUserMember),
     available: (state, getters) =>
       getters.byCurrentGroup

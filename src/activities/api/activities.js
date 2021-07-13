@@ -37,6 +37,13 @@ export default {
     return this.list({ feedback_possible: true, group: groupId })
   },
 
+  icsUrl (filter) {
+    return axios.getUri({
+      params: filter,
+      url: window.location.origin + '/api/activities/ics/',
+    })
+  },
+
   async save (activity) {
     return convert((await axios.patch(`/api/activities/${activity.id}/`, convertDateToRange(activity))).data)
   },

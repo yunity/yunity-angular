@@ -31,6 +31,7 @@
     <ActivityList
       :pending="fetchPending"
       :activities="activities"
+      :ics-url="activitiesIcsUrl"
       @join="join"
       @leave="leave"
       @detail="detail"
@@ -60,6 +61,7 @@ export default {
       placeId: 'places/activePlaceId',
       place: 'places/activePlace',
       activities: 'activities/byActivePlace',
+      activitiesIcsUrl: 'activities/icsUrlForCurrentPlace',
       fetchPending: 'activities/fetchingForCurrentGroup',
       isEditor: 'currentGroup/isEditor',
     }),
