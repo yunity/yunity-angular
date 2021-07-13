@@ -29,6 +29,10 @@ export default {
     return this.list({ place: placeId, date_min: new Date() })
   },
 
+  async listByDay (dayID) {
+    return this.list({ day: dayId, date_min: new Date() })
+  },
+
   async listBySeriesId (seriesId) {
     return this.list({ series: seriesId, date_min: new Date() })
   },
